@@ -20,8 +20,11 @@ body {
             background-color: #575757;
         }
 body {
-    background-image: url('../image/back.png'); /* 画像のパス */
-    background-size: cover; /* 画像を画面全体に拡大 */
+    background-image: url('path/to/your/image.jpg'); /* 背景画像のパス */
+    background-size: cover; /* 画面全体に画像をフィットさせる */
     background-repeat: no-repeat; /* 繰り返しを防ぐ */
+    background-attachment: fixed; /* 背景画像を固定する */
     background-position: center; /* 画像を中央に配置 */
+    height: 100vh; /* 全画面の高さにする */
+    margin: 0; /* 余白をなくす */
 }
