@@ -1,12 +1,7 @@
-version: 1
 services:
   - type: web
     name: ziziidesu-homepage
     env: node
+    buildCommand: "npm install"
+    startCommand: "node server.js"
     plan: free
-    buildCommand: npm install
-    startCommand: npm start
-    autoDeploy: true
-    envVars:
-      - key: NODE_VERSION
-        value: 16
