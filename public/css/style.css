@@ -19,3 +19,9 @@ body {
         .navbar a:hover {
             background-color: #575757;
         }
+body {
+    background-image: url('../image.back.png'); /* 画像のパス */
+    background-size: cover; /* 画像を画面全体に拡大 */
+    background-repeat: no-repeat; /* 繰り返しを防ぐ */
+    background-position: center; /* 画像を中央に配置 */
+}
